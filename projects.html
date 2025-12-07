@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TaskFlow | Projects</title>
+    <link rel="icon" type="image/png" href="img/TaskFlowLogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- header -->
+    <div class="container my-4">
+      <div class="title">Projects</div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="dashboard.html">
+          <img src="img/TaskFlowLogo.png" alt="TaskFlow Logo" width="40" class="me-2">
+          <span>TaskFlow</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="tasks.html">Tasks</a></li>
+            <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+
+          <div class="navbar-nav mb-2 mb-lg-0">
+            <div class="nav-item me-3">
+              <div class="form-check form-switch mt-2">
+                <input class="form-check-input" type="checkbox" id="darkModeToggle">
+                <label class="form-check-label" for="darkModeToggle" id="themeLabel"><i class="fa-solid fa-moon ms-2"></i></label>
+              </div>
+            </div>
+            <li class="nav-item dropdown">
+            <a class="nav-link d-flex align-items-center dropdown-toggle"
+              href="#"
+              id="profileDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="img/Icon.png" alt="Profile"
+                  class="rounded-circle" width="32" height="32">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#" id="logoutLink">
+                <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Logout
+              </a></li>
+            </ul>
+          </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- projects cards -->
+    <div class="container my-4">
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card shadow bg-body-tertiary border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">IMS566 Web App</h5>
+              <p class="card-text small text-muted">Advanced Web Design & Content Management.</p>
+              <p class="mb-1"><strong>Tasks:</strong> 8</p>
+              <p class="mb-1"><strong>Completed:</strong> 4</p>
+              <p class="mb-2"><strong>Due:</strong> 03 Dec 2025</p>
+              <span class="badge badge-soft-yellow">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow bg-body-tertiary border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">CTU554 Reflection</h5>
+              <p class="card-text small text-muted">Critical analysis and writing task.</p>
+              <p class="mb-1"><strong>Tasks:</strong> 3</p>
+              <p class="mb-1"><strong>Completed:</strong> 3</p>
+              <p class="mb-2"><strong>Due:</strong> 01 Dec 2025</p>
+              <span class="badge badge-soft-green">Completed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow bg-body-tertiary border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">CSC574 Revision</h5>
+              <p class="card-text small text-muted">Quiz and exam preparation.</p>
+              <p class="mb-1"><strong>Tasks:</strong> 5</p>
+              <p class="mb-1"><strong>Completed:</strong> 1</p>
+              <p class="mb-2"><strong>Due:</strong> 08 Dec 2025</p>
+              <span class="badge badge-soft-red">At Risk</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow bg-body-tertiary border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">IMS565 Project</h5>
+              <p class="card-text small text-muted">Project System Management.</p>
+              <p class="mb-1"><strong>Tasks:</strong> 5</p>
+              <p class="mb-1"><strong>Completed:</strong> 4</p>
+              <p class="mb-2"><strong>Due:</strong> 10 Dec 2025</p>
+              <span class="badge badge-soft-green">Completed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow bg-body-tertiary border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">TJC451 Video Project</h5>
+              <p class="card-text small text-muted">Japanese Language.</p>
+              <p class="mb-1"><strong>Tasks:</strong> 7</p>
+              <p class="mb-1"><strong>Completed:</strong> 7</p>
+              <p class="mb-2"><strong>Due:</strong> 02 Dec 2025</p>
+              <span class="badge badge-soft-green">Completed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow bg-body-tertiary border-0 h-100">
+            <div class="card-body">
+              <h5 class="card-title">IMS561 Individual Website</h5>
+              <p class="card-text small text-muted">Quiz and exam preparation.</p>
+              <p class="mb-1"><strong>Tasks:</strong> 5</p>
+              <p class="mb-1"><strong>Completed:</strong> 1</p>
+              <p class="mb-2"><strong>Due:</strong> 08 Dec 2025</p>
+              <span class="badge badge-soft-yellow">In Progress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+      <footer class="footer mt-5 py-3">
+        <div class="container">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
+            <!-- Brand + tagline -->
+            <div class="d-flex align-items-center gap-2">
+              <img src="img/TaskFlowLogo.png" alt="TaskFlow logo" width="32" height="32">
+              <div>
+                <div class="fw-semibold">TaskFlow</div>
+                <div class="small text-muted">Your day, in flow</div>
+              </div>
+            </div>
+
+      <!-- Tiny nav links -->
+      <nav class="small">
+        <a href="about.html" class="text-muted text-decoration-none me-2">About</a>
+        <span class="text-muted">·</span>
+        <a href="#" class="text-muted text-decoration-none mx-2">Features</a>
+        <span class="text-muted">·</span>
+        <a href="#" class="text-muted text-decoration-none ms-2">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-muted small mt-3">
+      © 2025 TaskFlow. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- dark mode script -->
+    <script>
+      function setTheme(theme) {
+        document.documentElement.setAttribute("data-bs-theme", theme);
+        localStorage.setItem("theme", theme);
+        const label = document.getElementById("themeLabel");
+        if (label) {
+          const icon = label.querySelector("i");
+          if (icon) {
+            if (theme === "dark") {
+              icon.classList.remove("fa-moon");
+              icon.classList.add("fa-sun");
+            } else {
+              icon.classList.remove("fa-sun");
+              icon.classList.add("fa-moon");
+            }
+          }
+        }
+      }
+
+      document
+        .getElementById("darkModeToggle")
+        .addEventListener("change", function (event) {
+          if (event.target.checked) {
+            setTheme("dark");
+          } else {
+            setTheme("");
+          }
+        });
+
+      window.onload = function () {
+        let savedTheme = localStorage.getItem("theme");
+        if (savedTheme) {
+          setTheme(savedTheme);
+          if (savedTheme === "dark") {
+            document.getElementById("darkModeToggle").checked = true;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
